@@ -52,10 +52,6 @@ ul {
   list-style: none;
 }
 
-li {
-  text-align: center;
-}
-
 ::placeholder {
   color: #FFF;
   font-weight: bold;
