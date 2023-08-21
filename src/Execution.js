@@ -1,11 +1,11 @@
 import { ACTIONS } from "./App";
 
-const divStyle = {
-  display: "grid",
-  gridTemplateColumns: "repeat(3, 1fr)",
-};
-
 export default function Execution({ execution, dispatch4 }) {
+  const divStyle = {
+    display: "grid",
+    gridTemplateColumns: "repeat(3, 1fr)",
+  };
+
   const listStyle = {
     display: "flex",
     justifyContent: "center",
